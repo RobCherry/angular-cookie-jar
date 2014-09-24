@@ -1,0 +1,21 @@
+{
+  "name": "angular-cookie-jar",
+  "version": "1.0.0-beta",
+  "main": [
+    "angular-cookie-jar.js"
+  ],
+  "dependencies": {
+    "angular": ">=1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.0"
+  },
+  "ignore": [
+    ".*",
+    "*.js",
+    "*.json",
+    "*.md",
+    "src",
+    "test"
+  ]
+}
