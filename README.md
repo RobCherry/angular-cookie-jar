@@ -67,7 +67,7 @@ CookieJar.get(); // Returns an object mapping keys to values.
 Delete a single cookie:
 
 ```javascript
-CookieJar.remove('name'); // Returns true on success, false on failure.
+CookieJar.remove('name', { path: '/' }); // Returns true on success, false on failure.
 ```
 
 _**In order to remove a cookie you must use the exact same path, domain, and secure options that were used to set the cookie.**_
