@@ -1,6 +1,6 @@
 /**
  * Angular Cookie Jar - An easy to use AngularJS module for managing cookies.
- * @version 1.0.0-beta - 2014-09-23
+ * @version 1.0.0-beta.1 - 2014-09-24
  * @link https://github.com/RobCherry/angular-cookie-jar
  * @author Rob Cherry
  * @copyright 2014

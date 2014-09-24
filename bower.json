@@ -1,6 +1,6 @@
 {
   "name": "angular-cookie-jar",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.1",
   "main": [
     "angular-cookie-jar.js"
   ],
