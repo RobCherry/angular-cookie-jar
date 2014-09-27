@@ -1,7 +1,7 @@
 {
   "name": "angular-cookie-jar",
   "description": "An easy to use AngularJS module for managing cookies.",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "filename": "angular-cookie-jar.min.js",
   "main": "dist/angular-cookie-jar.min.js",
   "author": "Rob Cherry",

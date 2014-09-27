@@ -1,8 +1,8 @@
 {
   "name": "angular-cookie-jar",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "main": [
-    "angular-cookie-jar.js"
+    "dist/angular-cookie-jar.js"
   ],
   "dependencies": {
     "angular": ">=1.0"
@@ -11,10 +11,10 @@
     "angular-mocks": ">=1.0"
   },
   "ignore": [
-    ".*",
-    "*.js",
-    "*.json",
-    "*.md",
+    "**/.*",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json",
     "src",
     "test"
   ]

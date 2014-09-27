@@ -11,7 +11,7 @@ describe('CookieJar', function() {
         CookieJarProvider.setDefaultOptions({});
       }]);
 
-    angular.mock.module('ng-cookie-jar', 'config-helper');
+    angular.mock.module('ngCookieJar', 'config-helper');
 
     angular.mock.inject(function(_$window_, _$document_, _CookieJar_) {
       CookieJar = _CookieJar_;
@@ -416,7 +416,7 @@ describe('JSON decorator', function() {
         }]);
       }]);
 
-    angular.mock.module('ng-cookie-jar', 'config-helper');
+    angular.mock.module('ngCookieJar', 'config-helper');
 
     angular.mock.inject(function(_$window_, _$document_, _CookieJar_) {
       DecoratedCookieJar = _CookieJar_;

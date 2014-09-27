@@ -15,6 +15,12 @@ Include `angular-cookie-jar.min.js` after you have included the main AngularJS l
 
 ## Basic Usage
 
+### Including `ngCookieJar` in your application
+
+```javascript
+angular.module('yourApplication', ['ngCookieJar'])...
+```
+
 Angular Cookie Jar creates a `CookieJar` service that can be used for managing cookies.
 
 ### Creating Cookies
@@ -77,7 +83,7 @@ _**In order to remove a cookie you must use the exact same path, domain, and sec
 Angular Cookie Jar provides an API for setting default cookie options:
 
 ```javascript
-angular.module('yourApplication', ['ng-cookie-jar'])
+angular.module('yourApplication', ['ngCookieJar'])
   .config(['CookieJarProvider', function(CookieJarProvider) {
     CookieJarProvider.setDefaultOptions({ path: '/' });
   }]);
@@ -127,7 +133,7 @@ By default cookie names and values are encoded and decoded using `encodeURICompo
 AngularJS provides a great interface for extending services.  The following example will add a `getJson()` and `setJson()` method to the API.
 
 ```javascript
-angular.module('yourApplication', ['ng-cookie-jar'])
+angular.module('yourApplication', ['ngCookieJar'])
   .config(['$provide', function($provide) {
     $provide.decorator('CookieJar', ['$delegate', function CookieJarDecorator($delegate) {
       $delegate.getJson = function getJson(key) {

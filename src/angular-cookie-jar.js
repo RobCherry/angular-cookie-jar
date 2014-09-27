@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('ng-cookie-jar', []).provider('CookieJar', [function CookieJarProvider() {
+  angular.module('ngCookieJar', []).provider('CookieJar', [function CookieJarProvider() {
     var UNDEFINED = (function(undefined) { return undefined; })(),
         EXPIRES = 'expires',
         PATH = 'path',
