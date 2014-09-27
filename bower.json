@@ -12,9 +12,9 @@
   },
   "ignore": [
     "**/.*",
+    "*.json",
     "Gruntfile.js",
     "karma.conf.js",
-    "package.json",
     "src",
     "test"
   ]
